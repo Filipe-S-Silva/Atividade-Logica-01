@@ -1,21 +1,21 @@
 Algoritmo "exercicio 4"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Filipe S
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    morango, maca, quantidadeFruta : inteiro
    morangoValor, macaValor, valorTotal, desconto, valorPago : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva("Quantidade em Kg de morangos: ")
    leia(morango)
-   escreva("Quantidade em Kg de maçãs: ")
+   escreva("Quantidade em Kg de maÃ§Ã£s: ")
    leia(maca)
    limpatela
 
@@ -36,13 +36,13 @@ Inicio
 
    se(quantidadeFruta > 8) ou (valorTotal > 25)entao
 
-      desconto <- valorTotal * 0.01
+      desconto <- valorTotal * 0.1
       valorPago <- valorTotal - desconto
 
       escreval("Quantidade de morangos: ", morango, " kg")
       escreval("Valor pago para os morangos: R$", morangoValor)
-      escreval("Quantidade de maçãs: ", maca, " kg")
-      escreval("Valor pago para as maçãs: R$", macaValor)
+      escreval("Quantidade de maÃ§Ã£s: ", maca, " kg")
+      escreval("Valor pago para as maÃ§Ã£s: R$", macaValor)
       escreval("")
       escreval("Valor total: R$", valorTotal)
       escreval("Quantidade de frutas: ", quantidadeFruta, " kg")
@@ -54,8 +54,8 @@ Inicio
 
       escreval("Quantidade de morangos: ", morango, " kg")
       escreval("Valor pago para os morangos: R$", morangoValor)
-      escreval("Quantidade de maçãs: ", maca, " kg")
-      escreval("Valor pago para as maçãs: R$", macaValor)
+      escreval("Quantidade de maÃ§Ã£s: ", maca, " kg")
+      escreval("Valor pago para as maÃ§Ã£s: R$", macaValor)
       escreval("")
       escreval("Valor total: R$", valorTotal)
       escreval("Quantidade de frutas: ", quantidadeFruta, " kg")

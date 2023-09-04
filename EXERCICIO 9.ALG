@@ -1,23 +1,23 @@
 Algoritmo "exercio 9"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Filipe S
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    renda, emprestimo, prestacoes, valorEmprestimo, valorPrestacao : real
    quantidadeDePrestacaoMax : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva("Informe sua renda mensal: R$")
    leia(renda)
-   escreva("Informe o valor total do empréstimo solicitado: R$")
+   escreva("Informe o valor total do emprÃ©stimo solicitado: R$")
    leia(emprestimo)
-   escreva("Quantas prestações: ")
+   escreva("Quantas prestaÃ§Ãµes: ")
    leia(prestacoes)
 
    limpatela
@@ -27,8 +27,8 @@ Inicio
    quantidadeDePrestacaoMax <- valorPrestacao/prestacoes
 
    se(valorEmprestimo >= emprestimo) e (quantidadeDePrestacaoMax >= prestacoes)entao
-      escreva("Empréstimo pode ser concedido")
+      escreva("EmprÃ©stimo pode ser concedido")
    senao
-      escreva("Emprestimo não pode ser concedido")
+      escreva("Emprestimo nÃ£o pode ser concedido")
    fimse
 Fimalgoritmo
